@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;  
+}
+
+html, body, #sky-background{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+#sky-background{
+    background: linear-gradient(#111, #001438,#111);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -666;
+}

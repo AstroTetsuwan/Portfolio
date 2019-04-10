@@ -1,0 +1,36 @@
+#neptune{
+    background: linear-gradient(to bottom left, #4169E1, #191970 60%);
+    width: 16px; height: 16px;
+    top: calc(50% - 120px); left: calc(50% - 270px); 
+    animation: neptune 40s linear 1s infinite;
+}
+
+@keyframes neptune{
+    0%{ transform: translate(0, 0); background:  linear-gradient(to bottom left, #4169E1, #191970 70%);}
+    10%{ background:  linear-gradient(to bottom left, #4169E1, #191970 70%);}
+    20%{ background:  linear-gradient(to bottom left, #4169E1, #191970 80%); }
+    40%{ background: linear-gradient(to  right, #4169E1, #191970 90%);}
+    50%{ transform: translate(430px, -30px) scale(0.8); background:  linear-gradient(to right, #4169E1, #191970 60%);}
+    60%{ background:  linear-gradient(to right, #4169E1, #191970 80%); }
+    80%{ background:  linear-gradient(to left, #4169E1, #191970 80%); }
+    100%{ transform: translate(0, 0)  scale(0.8);  z-index: -57; background:  linear-gradient(to bottom left, #4169E1, #191970 70%);}
+}
+
+@keyframes neptune-small{
+    0%{ transform: translate(0, 0); background:  linear-gradient(to bottom left, #4169E1, #191970 70%);}
+    10%{ background:  linear-gradient(to bottom left, #4169E1, #191970 70%);}
+    20%{ background:  linear-gradient(to bottom left, #4169E1, #191970 80%); }
+    40%{ background: linear-gradient(to  right, #4169E1, #191970 90%);}
+    50%{ transform: translate(230px, -30px) scale(0.8); background:  linear-gradient(to right, #4169E1, #191970 60%);}
+    60%{ background:  linear-gradient(to right, #4169E1, #191970 80%); }
+    80%{ background:  linear-gradient(to left, #4169E1, #191970 80%); }
+    100%{ transform: translate(0, 0)  scale(0.8);  z-index: -57; background:  linear-gradient(to bottom left, #4169E1, #191970 70%);}
+}
+
+@media (max-width: 768px){
+    #neptune{
+        width: 10px; height: 10px;
+        top: calc(50% - 70px); left: calc(50% - 155px); 
+        animation: neptune-small 40s linear 1s infinite;
+    }
+}

@@ -1,0 +1,25 @@
+#solar-system-wrapper{
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+}
+
+#solar-system{
+    width: 50vw;
+    height: 25vh;
+    margin-top: 5vh;
+}
+
+.planet{
+    position: relative;
+    border-radius: 50%;
+    box-shadow: 0 0 5px #e2efdf
+}
+
+@media (max-width: 768px){
+    
+    #solar-system{
+        width: 100vw;
+    }
+}

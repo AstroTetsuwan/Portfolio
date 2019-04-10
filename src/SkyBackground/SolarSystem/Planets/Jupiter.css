@@ -1,0 +1,49 @@
+#jupiter{
+    background: linear-gradient(to top right, rgba(0,0,0,1), rgba(0,0,0,0));
+    width: 25px; height: 25px;
+    top: calc(50% - 70px); left: calc(50% - 150px);    
+    transform: rotate(5deg);
+    animation: jupiter 25s linear 1s infinite;
+    overflow: hidden;   
+    background: linear-gradient(rgb(105, 57, 12) 25%, #997e25 35%, #8f1a0b 45%, #915c17 55%, #7e2a1f 65%, #9c5f4c 75%, rgb(105, 57, 12));
+}
+
+#jupiter-colors{
+    width: 25px; height: 25px;
+    animation: jupiter-colors 25s linear 1s infinite;
+}
+
+@keyframes jupiter{
+    0%{ transform: translate(0, 0) scale(0.95) rotate(5deg); }
+    30%{ transform: translate(95px, -15px) scale(1); }
+    50%{ transform: translate(260px, -30px) scale(0.8)  rotate(-5deg); }     
+    100%{ transform: translate(0, 0)  scale(0.9) rotate(5deg);  z-index: -55; }
+}
+
+@keyframes jupiter-colors{
+    0%{ background: linear-gradient(to right, rgba(0,0,0,.4), rgba(0,0,0,0)); }
+    10%{ background: linear-gradient(to right, rgba(0,0,0,.6), rgba(0,0,0,0));}
+    20%{ background: linear-gradient(to right, rgba(0,0,0,.6), rgba(0,0,0,0));}
+    30%{ background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6));}
+    35%{background: linear-gradient(to left, rgba(0,0,0,.5) 50%, rgba(0,0,0,0));}
+    40%{background: linear-gradient(to left, rgba(0,0,0,.5) 50%, rgba(0,0,0,0)); }
+    50%{  background: linear-gradient(to left, rgba(0,0,0,.5) 10%, rgba(0,0,0,0)); }
+    60%{ background: linear-gradient(to left, rgba(0,0,0,.5) 10%, rgba(0,0,0,0)); }
+    80%{ background: linear-gradient(to right, rgba(0,0,0,.5) 40%, rgba(0,0,0,0)); }       
+    100%{ background: linear-gradient(to right, rgba(0,0,0,.4) 20%, rgba(0,0,0,0));}
+}
+
+@keyframes jupiter-small{
+    0%{ transform: translate(0, 0) scale(0.95) rotate(5deg); }
+    30%{ transform: translate(95px, -15px) scale(1); }
+    50%{ transform: translate(140px, -30px) scale(0.8)  rotate(-5deg); }     
+    100%{ transform: translate(0, 0)  scale(0.9) rotate(5deg);  z-index: -55; }
+}
+
+@media (max-width: 768px){
+    #jupiter{
+        width: 15px; height: 15px;
+        top: calc(50% - 44px); left: calc(50% - 85px); 
+        animation: jupiter-small 25s linear 1s infinite;
+    }
+}

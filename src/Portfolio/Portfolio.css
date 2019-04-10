@@ -1,0 +1,45 @@
+#portfolio{
+    position: fixed;
+    top: 0; left: 0;
+    width: 100vw; height: 100vh;
+}
+.portfolio-section{
+    width: 100vw; height: 100vh;
+    position: absolute;
+    transition: all ease-in-out 1s;
+}
+
+.center-content{   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vertical-back-home{
+    margin: 1vw 0;
+    height: 100vh;
+    width: 10vw;
+}
+
+.horizontal-back-home{
+    margin: 0 1vh;
+    height: 10vh;
+    width: 100vw;
+}
+
+.back-home-btn{
+    font-size: 5em;
+    color: #efefef;
+    opacity: .4;
+    text-shadow: 0 0 25px #efefef;
+}
+
+.back-home-btn:hover{
+    cursor: pointer;
+    opacity: .9;
+    text-shadow: 4px 4px 25px #efefef,  -4px -4px 25px #efefef;
+}
+
+.portfolio-section h1{
+    color: white; font-size: 5em;
+}

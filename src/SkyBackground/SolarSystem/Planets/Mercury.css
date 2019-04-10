@@ -1,0 +1,34 @@
+#mercury{
+    background: linear-gradient(to top right, rgb(197, 9, 9) 20%, #f8cb00); 
+    width: 4px; height: 4px;
+    top: calc(50% - 40px); left: calc(50% - 40px); 
+    animation: mercury 10s linear 1s infinite;
+}
+
+@keyframes mercury {
+    0%{ transform: translate(0, 0); }
+    10%{ background: linear-gradient(to right, rgb(107, 18, 18) 60%, #f8cb00); }
+    25%{ transform: translate(60px, -15px)  scale(1.1); background: linear-gradient(to right, rgb(107, 18, 18) 80%, #f8cb00);}
+    40%{  background: linear-gradient(to left, rgb(197, 9, 9) 60%, #f8cb00); }
+    50%{ transform: translate(80px, -25px) scale(0.9); background: linear-gradient(to left, rgb(107, 18, 18) 80%, #f8cb00);}
+    60%{ z-index: -51; background: linear-gradient(to left, rgb(107, 18, 18) 10%, #f8cb00);}
+    100%{ transform: translate(0, 0)  scale(1);  z-index: -51;}
+}
+
+@keyframes mercury-small {
+    0%{ transform: translate(0, 0); z-index: -49;}
+    10%{ background: linear-gradient(to right, rgb(107, 18, 18) 60%, #f8cb00); }
+    25%{ transform: translate(20px, -5px)  scale(1.1); background: linear-gradient(to right, rgb(107, 18, 18) 80%, #f8cb00);}
+    40%{  background: linear-gradient(to left, rgb(197, 9, 9) 60%, #f8cb00); }
+    50%{ transform: translate(40px, -10px) scale(0.9); background: linear-gradient(to left, rgb(107, 18, 18) 80%, #f8cb00);}
+    60%{ z-index: -51; background: linear-gradient(to left, rgb(107, 18, 18) 10%, #f8cb00);}
+    100%{ transform: translate(0, 0)  scale(1);  z-index: -51;}
+}
+
+@media (max-width: 768px){
+    #mercury{
+        width: 3px; height: 3px;
+        top: calc(50% - 25px); left: calc(50% - 20px); 
+        animation: mercury-small 10s linear 1s infinite;
+    }
+}

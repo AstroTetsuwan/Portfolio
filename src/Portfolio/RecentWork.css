@@ -1,0 +1,24 @@
+.recentWork-show{ top: 0; left: 0; }
+.recentWork-hide{ top: -100vh; left: 0; }
+
+#recentWork-section{
+    display: flex;
+    flex-direction: column;
+}
+
+#recentWork-main{
+    height: 90vh;
+    width: 100vw;
+}
+
+.recent-work-element{
+
+}
+
+.recent-work-element-img{
+    max-width: 100%;
+}
+
+.recent-work-element-title{
+    
+}

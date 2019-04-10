@@ -1,0 +1,53 @@
+#earth{
+    background: linear-gradient(to top right, rgb(2, 0, 133), #29b1e7 60%);
+    width: 10px; height: 10px;
+    top: calc(50% - 60px); left: calc(50% - 85px);  
+    animation: earth 18s linear 1s infinite;
+}
+#earth div{   
+    position: relative;
+    border-radius: 25%;
+}
+#earth .clouds{
+    background: white;
+    opacity: .5;
+    width: 2px; height: 3px;
+}
+#earth #clouds-1{ top: 2px; left: 1px; }
+#earth #clouds-2{ top: 2px; left: 6px; }
+#earth .continent{
+    background: rgb(44, 196, 44);
+    width: 3px; height: 3px;
+    top: 0.5px; left: 2px;
+}
+
+@keyframes earth{
+    0%{ transform: translate(0, 0); }
+    10%{ background:  linear-gradient(to top right, rgb(2, 0, 133), #29b1e7 70%);}
+    20%{ background:  linear-gradient(to top right, rgb(2, 0, 133), #29b1e7 80%); }
+    40%{ background: linear-gradient(to bottom left, rgb(2, 0, 133), #29b1e7 90%);}
+    50%{ transform: translate(155px, -20px) scale(0.8); background:  linear-gradient(to bottom left, rgb(2, 0, 133), #29b1e7 60%);}
+    60%{ background:  linear-gradient(to bottom left, rgb(2, 0, 133), #29b1e7 80%); }
+    100%{ transform: translate(0, 0)  scale(0.8);  z-index: -53;}
+}
+
+@keyframes earth-small{
+    0%{ transform: translate(0, 0); }
+    10%{ background:  linear-gradient(to top right, rgb(2, 0, 133), #29b1e7 70%);}
+    20%{ background:  linear-gradient(to top right, rgb(2, 0, 133), #29b1e7 80%); }
+    40%{ background: linear-gradient(to bottom left, rgb(2, 0, 133), #29b1e7 90%);}
+    50%{ transform: translate(85px, -10px) scale(0.8); background:  linear-gradient(to bottom left, rgb(2, 0, 133), #29b1e7 60%);}
+    60%{ background:  linear-gradient(to bottom left, rgb(2, 0, 133), #29b1e7 80%); }
+    100%{ transform: translate(0, 0)  scale(0.8);  z-index: -53;}
+}
+
+@media (max-width: 768px){
+    #earth{
+        width: 7px; height: 7px;
+        top: calc(50% - 38px); left: calc(50% - 45px); 
+        animation: earth-small 18s linear 1s infinite;
+    }
+    #earth .clouds{ width: 2px; height: 2px;}
+    #earth #clouds-2{ top: 0px; left: 4px; }
+    #earth .continent{width: 2px; height: 2px; top: 0px; left: 2px;}
+}

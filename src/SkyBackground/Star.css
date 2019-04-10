@@ -1,0 +1,16 @@
+.star{
+    position: absolute;
+    border-radius: 50%;
+    background: white;
+    z-index: -665;
+}
+
+.twinkling-star{
+    animation: twinkle 2s ease infinite;
+}
+
+@keyframes twinkle {
+    0% { opacity: .4; }
+    50% { opacity: .8; }
+    100% { opacity: .4; }
+}
