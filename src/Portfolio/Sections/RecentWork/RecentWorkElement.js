@@ -7,7 +7,7 @@ function RecentWorkElement(props){
     let style={
         background: "url(" + props.project.img + ")",
         backgroundPosition: "center center",
-        backgroundSize: "cover"
+        backgroundSize: "contain"
     }
     return(
         <div className="recent-work-element" style={style}>           
