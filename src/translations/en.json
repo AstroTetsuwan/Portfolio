@@ -1,0 +1,12 @@
+{
+    "app.greetings-1": "Hi, I'm Jeremy, ",
+    "app.greetings-2": "Web Developer.",
+    
+    "app.menu-resume": "Resume",
+    "app.menu-about": "About",
+    "app.menu-recent-work": "Recent Work",
+    "app.menu-contact": "Contact",
+
+    "app.recent-work.visit": "Visit...",
+    "app.recent-work.comment.ljm": "A website I made for a musician friend. I used React for the front, and php for the back, to handle digital purchases of song, and creating download links with an expiration date using WeTrasfer API."
+}

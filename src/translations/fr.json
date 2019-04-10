@@ -1,0 +1,12 @@
+{
+    "app.greetings-1": "Salut, je suis Jeremy, ",
+    "app.greetings-2": "Développeur Web.",
+    
+    "app.menu-resume": "CV",
+    "app.menu-about": "À propos",
+    "app.menu-recent-work": "Portfolio",
+    "app.menu-contact": "Contact",
+
+    "app.recent-work.visit": "Visiter...",
+    "app.recent-work.comment.ljm": "Un site que j'ai réalisé pour une amie musicienne. React pour le front, et php pour le back, afin de gérer les achats digitaux de chansons, et créer des liens de téléchargement avec une date d'expiration à l'aide de l'API WeTransfer."
+}

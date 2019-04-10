@@ -1,10 +1,10 @@
 import React from 'react';
 
-import Home from './Home';
-import RecentWork from './RecentWork';
-import Resume from './Resume';
-import Contact from './Contact';
-import About from './About';
+import Home from './Sections/Home';
+import RecentWork from './Sections/RecentWork/RecentWork';
+import Resume from './Sections/Resume/Resume';
+import Contact from './Sections/Contact';
+import About from './Sections/About';
 
 import './Portfolio.css';
 
@@ -20,6 +20,7 @@ class Portfolio extends React.Component{
         }
 
     }
+
 
     displayRecentWork = () => { 
         this.setState({home: "home-hide-bottom", recentWork: "recentWork-show"}); 
