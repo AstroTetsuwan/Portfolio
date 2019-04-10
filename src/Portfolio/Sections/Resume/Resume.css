@@ -3,9 +3,39 @@
 
 #resume-section{
     display: flex;
+    padding-right: 10vw;
 }
 
-#resume-main{
-    height: 100vh;
-    width: 90vw;
+#resume-title{padding-right: 0.5vw;}
+
+
+#resume-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 2vh 2vw;
+}
+
+.resume-nav-button{
+    width: 33%;
+    text-align: center;
+    font-size: 2.2em;
+    color: #efefef;
+    opacity: .6;
+    text-shadow: 0 0 25px #efefef;
+}
+.resume-nav-button:hover, .resume-nav-button-active{
+    cursor: pointer;
+    text-shadow: 4px 4px 25px #efefef,  -4px -4px 25px #efefef;
+    opacity: .7;
+}
+.resume-nav-button-active{
+    opacity: 1;
+}
+
+#resume-parts-wrapper{
+    margin-top: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 2vh 2vw;
 }

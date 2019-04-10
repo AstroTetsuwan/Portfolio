@@ -7,6 +7,24 @@
     "app.menu-recent-work": "Portfolio",
     "app.menu-contact": "Contact",
 
+    "app.recent-work.title": "Portfolio",
     "app.recent-work.visit": "Visiter...",
-    "app.recent-work.comment.ljm": "Un site que j'ai réalisé pour une amie musicienne. React pour le front, et php pour le back, afin de gérer les achats digitaux de chansons, et créer des liens de téléchargement avec une date d'expiration à l'aide de l'API WeTransfer."
+    "app.recent-work.comment.ljm": "Un site que j'ai réalisé pour une amie musicienne. React pour le front, et PHP pour le back, afin de gérer les achats digitaux de chansons, et créer des liens de téléchargement avec une date d'expiration à l'aide de l'API WeTransfer.",
+
+
+    "app.resume.title": "CV",
+
+    "app.resume.nav.education": "Diplômes et Formations",
+    "app.resume.nav.work": "Expériences professionnelles",
+    "app.resume.nav.skills": "Compétences",
+
+    "app.formation-1.date": "Juillet 2009",
+    "app.formation-1.name": "Baccalauréat Littéraire",
+    "app.formation-1.place": "Lycée Camille Claudel, Pontault-Combault, France",
+
+    "app.formation-2.date": "Septembre 2008 - Juillet 2011",
+    "app.formation-2.name": "Licence LLCE (langues, littératures et civilisations étrangères) - Anglais",
+    "app.formation-2.place": "Sorbonne Nouvelle - Paris 3, Paris, France"
+    
+
 }

@@ -1,4 +1,5 @@
 import React from 'react';
+import { FormattedMessage } from 'react-intl';
 import './RecentWork.css';
 import ljmScreenShot from './ljm.png';
 import RecentWorkElement from './RecentWorkElement';
@@ -14,7 +15,8 @@ function RecentWork(props){
 
     return(
         <div id="recentWork-section" className={"portfolio-section " + props.displayClass}>                    
-            <div id="recentWork-main">
+            <div className="horizontal-main-section">
+                <h1 className="main-section-title"><FormattedMessage id="app.recent-work.title" defaultMessage="Recent Work"/></h1>
                 <div id="projects-wrapper">
                     {projects.map(project => <RecentWorkElement project={project}/>)}
                 </div>

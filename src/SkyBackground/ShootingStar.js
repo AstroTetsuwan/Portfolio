@@ -33,7 +33,7 @@ class ShootingStar extends React.Component{
         ], {
           duration: 5000,
           delay: this.props.delay,
-          iterations: Infinity,
+          iterations: 1,
           easing: "ease-in-out"   
         });
     }

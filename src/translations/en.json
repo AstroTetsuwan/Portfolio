@@ -7,6 +7,23 @@
     "app.menu-recent-work": "Recent Work",
     "app.menu-contact": "Contact",
 
+    "app.recent-work.title": "Recent Work",
     "app.recent-work.visit": "Visit...",
-    "app.recent-work.comment.ljm": "A website I made for a musician friend. I used React for the front, and php for the back, to handle digital purchases of song, and creating download links with an expiration date using WeTrasfer API."
+    "app.recent-work.comment.ljm": "A website I made for a musician friend. I used React for the front, and PHP for the back, to handle digital purchases of song, and creating download links with an expiration date using WeTrasfer API.",
+
+
+    "app.resume.title": "CV",
+
+    "app.resume.nav.education": "Education",
+    "app.resume.nav.work": "Work Experience",
+    "app.resume.nav.skills": "Skills",
+
+    "app.formation-1.date": "July 2009",
+    "app.formation-1.name": "High school diploma",
+    "app.formation-1.place": "Lycée Camille Claudel, Pontault-Combault, France",
+
+    "app.formation-2.date": "September 2008 - July 2011",
+    "app.formation-2.name": "Bachelor's degree in English language",
+    "app.formation-2.place": "Sorbonne Nouvelle - Paris 3, Paris, France"
+    
 }

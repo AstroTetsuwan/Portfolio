@@ -36,7 +36,7 @@ class SkyBackground extends React.Component{
     
         for(let i = 0; i < wBlocks; i++){
             for(let j = 0; j < hBlocks; j++){
-                let randomNumberOfStarsInThisBlock = RandomBetween(10, 20);
+                let randomNumberOfStarsInThisBlock = RandomBetween(20, 30);
                 for(let k = 0; k < randomNumberOfStarsInThisBlock; k++){
                     let randomStarLeft = RandomBetween((i * 100), ((i+1) * 100));
                     let randomStarTop = RandomBetween((j * 100), ((j+1) * 100));
@@ -52,7 +52,7 @@ class SkyBackground extends React.Component{
 
     getShootingStars(){
         let shootingStars = [];
-        let randomNumberOfShootingStars = RandomBetween(2, 5);
+        let randomNumberOfShootingStars = RandomBetween(0, 5);
         for(let i = 0; i < randomNumberOfShootingStars; i++){
             shootingStars.push(
                 <ShootingStar key={i} id={i} 

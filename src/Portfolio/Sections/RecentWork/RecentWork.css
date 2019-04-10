@@ -6,17 +6,13 @@
     flex-direction: column;
 }
 
-#recentWork-main{
-    height: 90vh;
-    width: 100vw;
-    padding: 30vh 10vw 10vh 10vw;
-}
 
 #projects-wrapper{
     height: 56vh;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding-top: 2vh;
 }
 
 .recent-work-element{

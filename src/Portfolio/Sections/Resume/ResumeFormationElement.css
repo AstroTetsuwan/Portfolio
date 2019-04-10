@@ -1,0 +1,28 @@
+.resume-element{
+    margin: .5vh;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #afafaf;
+    font-size: 1.2em;
+}
+
+.resume-element-date{
+    width: 32%;  
+    color: #ddd;
+    font-size: 1.21em;
+}
+
+.resume-element-formation-place-wrapper{
+    width: 68%;
+}
+
+.resume-element-formation{
+    font-size: 1.25em;
+    color: #efefef;
+    font-weight: bold;
+}
+
+.resume-element-place{
+    color: #efefef;
+}
