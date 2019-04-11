@@ -3,7 +3,7 @@ import ResumeFormationElement from './ResumeFormationElement';
 
 function ResumeFormation(props){
     let formations = [];
-    for(let i=1; i <= 2; i++){
+    for(let i=1; i <= 4; i++){
         formations.push({date: ("app.formation-" + i + ".date"), name: ("app.formation-" + i + ".name"), place:("app.formation-" + i + ".place")});
     }
 

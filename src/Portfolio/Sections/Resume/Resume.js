@@ -4,6 +4,7 @@ import { FormattedMessage } from 'react-intl';
 import './Resume.css';
 import ResumeNav from './ResumeNav';
 import ResumeFormation from './ResumeFormation';
+import ResumeJobs from './ResumeJobs';
 
 
 class Resume extends React.Component{
@@ -48,6 +49,7 @@ class Resume extends React.Component{
                         
                         <div id="resume-parts-wrapper">
                             {this.state.formationActive && <ResumeFormation/>}
+                            {this.state.jobActive && <ResumeJobs/>}
                         </div>
                     </div>
                 </div>

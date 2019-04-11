@@ -3,7 +3,6 @@ import { FormattedMessage } from 'react-intl';
 import './Home.css';
 
 function Home(props){
-    
     return(
         <div id="home" className={"portfolio-section " + props.displayClass}>
             <div id="home-top" className="center-content">

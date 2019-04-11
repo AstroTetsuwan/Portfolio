@@ -24,6 +24,41 @@
 
     "app.formation-2.date": "September 2008 - July 2011",
     "app.formation-2.name": "Bachelor's degree in English language",
-    "app.formation-2.place": "Sorbonne Nouvelle - Paris 3, Paris, France"
+    "app.formation-2.place": "Sorbonne Nouvelle - Paris 3, Paris, France",
+
+    "app.formation-3.date": "August 2013 - August 2016",
+    "app.formation-3.name": "BTEC Higher National Diploma in Hospitality Management",
+    "app.formation-3.place": "UTEC, Émerainville, France",
+
+    "app.formation-4.date": "October 2018 - July 2019",
+    "app.formation-4.name": "Master's degree in Web Application Development",
+    "app.formation-4.place": "AFPA, Champs-sur-Marne, France",
+
+    "app.job-1.date": "Juillet 2011 - Août 2011",
+    "app.job-1.name": "Gestionnaire administratif",
+    "app.job-1.place": "PRO BTP, Noisy le Grand, France",
+    "app.job-1.task-1": "Traitement, enregistrement des cotisations retraites.",
+
+    "app.job-2.date": "Août 2012 - Octobre 2012",
+    "app.job-2.name": "Vendeur polyvalent",
+    "app.job-2.place": "H&M, Ormesson, France",
+    "app.job-2.task-1": "Service client.",
+    "app.job-2.task-2": "Encaissement.",
+    "app.job-2.task-3": "Mise en rayon.",
+
+    "app.job-3.date": "Janvier 2013 - Juillet 2013",
+    "app.job-3.name": "Conseiller en vente",
+    "app.job-3.place": "High & Mighty, Londres, Royaume-Uni",
+    "app.job-3.task-1": "Service client.",
+    "app.job-3.task-2": "Encaissement.",
+    "app.job-3.task-3": "Agencement vitrine et rayons.",
+    "app.job-3.task-4": "Gestion du stock.",
+
+    "app.job-4.date": "Août 2013 - Octobre 2017",
+    "app.job-4.name": "Réceptionniste",
+    "app.job-4.place": "Ibis Budget, Pontault-Combault, France",
+    "app.job-4.task-1": "Accueil client physique et téléphonique.",
+    "app.job-4.task-2": "Service au bar.",
+    "app.job-4.task-3": "Réservations groupes."
     
 }
