@@ -4,11 +4,11 @@
     display: flex;
     justify-content: space-around;
     border-bottom: 1px solid #afafaf;
-    font-size: 1.1em;
+    font-size: 1em;
 }
 .resume-element-date{
     color: #ddd;
-    font-size: 1.11em;
+    font-size: 1em;
     flex-basis: 33%;
 }
 .resume-element-formation-place-wrapper{
@@ -16,7 +16,7 @@
 }
 
 .resume-element-job{
-    font-size: 1.15em;
+    font-size: 1.1em;
     color: #efefef;
     font-weight: bold;
 }

@@ -9,7 +9,7 @@ function ResumeJobs(props){
     jobs.push({date: ("app.job-4.date"), name: ("app.job-4.name"), place:("app.job-4.place"), tasks:["app.job-4.task-1", "app.job-4.task-2","app.job-4.task-3"]});
 
     return(
-        <div>
+        <div class="resume-part-section">
             {jobs.map((job, i) => <ResumeJobElement job={job} key={i} id={i}/>)}
         </div>
     );
