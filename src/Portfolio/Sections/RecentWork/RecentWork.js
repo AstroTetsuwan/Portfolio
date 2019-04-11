@@ -18,7 +18,7 @@ function RecentWork(props){
             <div className="horizontal-main-section">
                 <h1 className="main-section-title"><FormattedMessage id="app.recent-work.title" defaultMessage="Recent Work"/></h1>
                 <div id="projects-wrapper">
-                    {projects.map(project => <RecentWorkElement project={project}/>)}
+                    {projects.map((project, i) => <RecentWorkElement project={project} key={i}/>)}
                 </div>
             </div>
             <div className="horizontal-back-home center-content">

@@ -11,7 +11,7 @@ function Star(props){
         left: props.left + "px",
         width: size + "px",
         height: size + "px",
-        boxShadow: "0 0 " + size + "px"  + "#FFF",
+        boxShadow: ("0 0 " + size + "px"  + "#FFF"),
         animationDelay: RandomBetween(0.2, 2) + "s"
     };
 

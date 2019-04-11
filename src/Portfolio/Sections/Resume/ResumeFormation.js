@@ -8,8 +8,8 @@ function ResumeFormation(props){
     }
 
     return(
-        <div class="resume-part-section">
-            {formations.map(formation => <ResumeFormationElement formation={formation}/>)}
+        <div className="resume-part-section">
+            {formations.map((formation, i) => <ResumeFormationElement formation={formation} key={i}/>)}
         </div>
     );
 }
