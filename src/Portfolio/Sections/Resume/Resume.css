@@ -47,7 +47,3 @@
 .resume-part-section .resume-element:last-child{
     border: none;
 }
-
-#resume-skills-main-wrapper{
-    display: flex;
-}
