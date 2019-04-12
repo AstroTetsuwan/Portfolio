@@ -39,6 +39,15 @@
     background: rgba(0, 0, 0, 0.7);
     padding: 1vh 2vw;
 }
+
+.resume-part-section{
+    min-height: 40vh;
+}
+
 .resume-part-section .resume-element:last-child{
     border: none;
+}
+
+#resume-skills-main-wrapper{
+    display: flex;
 }

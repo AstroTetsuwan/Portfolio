@@ -1,0 +1,22 @@
+.skill-circle-wrapper{
+    padding: 10px;
+    position: absolute;
+}
+
+.skill-circle-canvas{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 10;
+}
+
+.full-circle{ 
+    position: absolute;
+    width: 96px;
+    height: 96px;
+    top: 42px;
+    left: 12px;
+    border-radius: 50%;
+    background: radial-gradient(rgba(230,230,230,0) 58%, #eee);
+    z-index: 9;
+}

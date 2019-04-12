@@ -21,11 +21,11 @@ class Resume extends React.Component{
     }
     handleNavClick = (name) => {
         switch(name){
-            case 'formation': this.setState({formationActive: true, jobActive: false, skillsActive: false });
-            break;
             case 'job': this.setState({formationActive: false, jobActive: true, skillsActive: false});
             break;
             case 'skills': this.setState({formationActive: false, jobActive: false, skillsActive: true });
+            break;          
+            default: this.setState({formationActive: true, jobActive: false, skillsActive: false }); //DEFAULT to formation
             break;
         }
     }
