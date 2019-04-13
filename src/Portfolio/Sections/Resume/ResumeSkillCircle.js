@@ -22,7 +22,7 @@ class ResumeSkillCircle extends React.Component{
     }
 
     drawSkill = (ctx) => {       
-        let no = 0; //start point percentage
+        let no = 30; //start point percentage
         let pointToFill = 4.72; //where to start the circle -> 0h00 on a clock (top of it)
         let cw = ctx.canvas.width;
         let ch = ctx.canvas.height;
@@ -42,8 +42,8 @@ class ResumeSkillCircle extends React.Component{
             let diff = ((no/100) * Math.PI * 2 * 10);
             ctx.clearRect(0, 0, cw, ch);          
             ctx.drawImage(img, imgLeft, imgTop, imgW, imgH);           
-            ctx.font = "16px sans-serif";
-            ctx.fillText(name, 50, 15);
+            ctx.font = "18px sans-serif";
+            ctx.fillText(name, 50, 17);
             ctx.lineWidth = 5;
             ctx.fillStyle = "#e2efdf";
             ctx.strokeStyle = "#b3ffff";
