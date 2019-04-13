@@ -5,12 +5,12 @@
     justify-content: space-around;
     border-bottom: 1px solid #afafaf;
     font-size: 1em;
+    color: #ccc;
 }
 
 .resume-element-date{
     width: 32%;  
-    color: #ddd;
-    font-size: 1em;
+    font-size: 1.1em;
 }
 
 .resume-element-formation-place-wrapper{
@@ -19,10 +19,5 @@
 
 .resume-element-formation{
     font-size: 1.1em;
-    color: #efefef;
     font-weight: bold;
-}
-
-.resume-element-place{
-    color: #efefef;
 }

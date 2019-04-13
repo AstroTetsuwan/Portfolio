@@ -9,3 +9,9 @@
     height: 90vh;
     width: 100vw;
 }
+
+#contact-title{
+    text-align: left;
+    margin-left: 10vw;
+    margin-bottom: 5vh;
+}

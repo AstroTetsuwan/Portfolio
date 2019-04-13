@@ -1,0 +1,14 @@
+.skills-part-title{
+    font-size: 1.5em;
+    color: #dedede;
+}
+
+.skills-part-title:last-of-type{
+    margin-top: 200px;
+}
+
+.skill-lang{
+    color: #dedede;
+    font-size: 1em;
+    margin: 10px;
+}

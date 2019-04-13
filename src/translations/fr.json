@@ -59,7 +59,14 @@
     "app.job-4.place": "Ibis Budget, Pontault-Combault, France",
     "app.job-4.task-1": "Accueil client physique et téléphonique.",
     "app.job-4.task-2": "Service au bar.",
-    "app.job-4.task-3": "Réservations groupes."
+    "app.job-4.task-3": "Réservations groupes.",
+
+    "app.skills.title-1": "Compétences en développement",
+    "app.skills.title-2": "Langues",
+    "app.skills.lang-1": "Français: Langue maternelle",
+    "app.skills.lang-2": "Anglais: Courant",
+
+    "app.contact.title": "Contact"
     
 
 }

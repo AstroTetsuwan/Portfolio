@@ -49,6 +49,8 @@
 .vertical-main-section{
     height: 100vh;
     width: 90vw;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 .main-section-title{

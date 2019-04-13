@@ -4,11 +4,11 @@
     display: flex;
     justify-content: space-around;
     border-bottom: 1px solid #afafaf;
-    font-size: 1em;
+    font-size: 1.1em;
+    color: #ccc;
 }
 .resume-element-date{
-    color: #ddd;
-    font-size: 1em;
+    font-size: 1.1em;
     flex-basis: 33%;
 }
 .resume-element-formation-place-wrapper{
@@ -16,21 +16,17 @@
 }
 
 .resume-element-job{
-    font-size: 1.1em;
-    color: #efefef;
+    font-size: 1.15em;
     font-weight: bold;
 }
 
-
-.resume-element-place, .resume-element-task{
-    color: #efefef;
-}
 .resume-element-task{
-    font-size: .9em;
+    font-size: 1em;
 }
 
 .tasks-wrapper{
     flex-basis: 33%;
+    padding-left: 6vw;
 }
 
 #resume-job-0{

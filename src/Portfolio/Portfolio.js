@@ -3,7 +3,7 @@ import React from 'react';
 import Home from './Sections/Home';
 import RecentWork from './Sections/RecentWork/RecentWork';
 import Resume from './Sections/Resume/Resume';
-import Contact from './Sections/Contact';
+import Contact from './Sections/Contact/Contact';
 import About from './Sections/About';
 
 import './Portfolio.css';

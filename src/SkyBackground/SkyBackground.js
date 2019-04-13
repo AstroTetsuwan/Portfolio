@@ -22,6 +22,8 @@ class SkyBackground extends React.Component{
     }
 
     componentDidMount(){
+        window.addEventListener('resize', () => this.setState({stars: this.getStars()}));
+
         this.interval = window.setInterval(() => {
             this.setState({shootingStars: this.getShootingStars()});
         }, 10000);

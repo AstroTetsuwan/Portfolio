@@ -8,6 +8,10 @@ class ResumeSkillCircle extends React.Component{
     }
 
     componentDidMount(){
+        this.init();
+    }
+
+    init = () => {
         let canvas = document.getElementById("resume-skill-circle-" + this.props.id);
         if(canvas.getContext){           
             this.drawSkill(canvas.getContext('2d'));
@@ -18,11 +22,11 @@ class ResumeSkillCircle extends React.Component{
     }
 
     drawSkill = (ctx) => {       
-        let no = 0;
-        let pointToFill = 4.72;
+        let no = 0; //start point percentage
+        let pointToFill = 4.72; //where to start the circle -> 0h00 on a clock (top of it)
         let cw = ctx.canvas.width;
         let ch = ctx.canvas.height;
-        let percentageLimit = this.props.percentage;
+        let percentageLimit = this.props.percentage || 100;
         let animationControl;
         let img = new Image();
         let imgW = this.props.imgSize,
@@ -32,7 +36,7 @@ class ResumeSkillCircle extends React.Component{
         img.src = this.props.img;
         let name = this.props.name;
         img.onload = () => {          
-           animationControl = window.setInterval(fillCircle, 1);
+           animationControl = window.setInterval(fillCircle, 10);
         }     
         function fillCircle(){
             let diff = ((no/100) * Math.PI * 2 * 10);
